@@ -1,10 +1,10 @@
 """
 
-    1. Data yang disimpan ke dalam List boleh duplikat
-    2. Terurut (ordered). Element dalam List disimpan sesuai urutan yang dimasukkan.
-    3. Dapat diubah (mutable). Element List dapat diubah, ditambah, dan dihapus.
-    4. Tipe data di dalam List boleh berbeda.
-    5. Untuk membuat List kita bisa menggunakan kurung siku []
+1. Data yang disimpan ke dalam List boleh duplikat
+2. Terurut (ordered). Element dalam List disimpan sesuai urutan yang dimasukkan.
+3. Dapat diubah (mutable). Element List dapat diubah, ditambah, dan dihapus.
+4. Tipe data di dalam List boleh berbeda.
+5. Untuk membuat List kita bisa menggunakan kurung siku []
 
 """
 
@@ -62,7 +62,11 @@ animals[2:4] = ["monkey", "dolphin"]
 
 print(animals)
 
-print(10 * "=", "Menambahkan dan Menggabungkan Element Di Dalam List Dengan append(), insert() dan extend()", 10 * "=")
+print(
+    10 * "=",
+    "Menambahkan dan Menggabungkan Element Di Dalam List Dengan append(), insert() dan extend()",
+    10 * "=",
+)
 
 colors = ["red", "green", "blue"]
 
@@ -82,7 +86,11 @@ colors.extend(colors_2)
 
 print("menggabungkan 2 colors dengan extend() = ", colors)
 
-print(10 * "=", "Menghapus Element di Dalam List Dengan remove(), pop(), dan clear()", 10 * "=")
+print(
+    10 * "=",
+    "Menghapus Element di Dalam List Dengan remove(), pop(), dan clear()",
+    10 * "=",
+)
 
 abjad = ["a", "b", "c", "d", "e", "f", "g", "h"]
 
@@ -110,7 +118,9 @@ fruits.sort()  # untuk mengurutkan element dari yang terkecil sampai yang terbes
 
 print(fruits)
 
-fruits.sort(reverse=True)  # untuk mengembalikan nilai sort ke awal dari element akhir (descending)
+fruits.sort(
+    reverse=True
+)  # untuk mengembalikan nilai sort ke awal dari element akhir (descending)
 
 print(fruits)
 
@@ -122,7 +132,9 @@ print(10 * "=", "Cara Menggunakan Sort Key Argument di List", 10 * "=")
 
 words = ["banana", "apple", "cherry", "date"]
 
-words.sort(key=len)  # untuk mengurutkan dari karakter element yang paling sedikit (ascending)
+words.sort(
+    key=len
+)  # untuk mengurutkan dari karakter element yang paling sedikit (ascending)
 
 print(words)
 
